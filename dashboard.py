@@ -40,7 +40,7 @@ This dashboard helps electricity distribution companies:
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("E:\Prashant Personal\e-Masters ML - IITG\Hackathon\smart_meter_data.csv")
+    return pd.read_csv("\Smart-Meter\smart_meter_data.csv")
 
 data = load_data()
 
